@@ -43,7 +43,6 @@ h2 {		     /* This styles the headers within the page */
 	margin: 0;
 }
 
-
 /* This section alters the appearance of all divs with the class "section", which is all of the divs in our html file.  We can use it to specify style elements that we want to be the same accross divs. */
 div.section {
 	padding: 1em;
@@ -85,3 +84,9 @@ div.section {
 	margin-right: 1em;
 }
 
+img.resize {
+	height:auto;
+	width:auto;
+	max-width:300px;
+	max-height:300px;
+}
